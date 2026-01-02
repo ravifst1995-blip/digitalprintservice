@@ -77,7 +77,7 @@ const sections = [
     • Portability: Request transfer of your information to another service
     • Withdrawal of consent: Withdraw consent for marketing communications
     
-    To exercise these rights, please contact us at privacy@nexusdigital.com.`
+    To exercise these rights, please contact us at Info@digitalprintservice.org.`
   },
   {
     title: "Data Retention",
@@ -167,7 +167,7 @@ export default function PrivacyPolicy() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-lg text-slate-600 leading-relaxed mb-6">
-              Nexus Digital ("we," "us," or "our") is committed to protecting your privacy. 
+             Digital Print Service ("we," "us," or "our") is committed to protecting your privacy. 
               This Privacy Policy explains how we collect, use, disclose, and safeguard your 
               information when you visit our website or use our services.
             </p>
@@ -225,7 +225,7 @@ export default function PrivacyPolicy() {
               We're here to help. Contact our privacy team for any questions or concerns.
             </p>
             <a
-              href="mailto:privacy@nexusdigital.com"
+              href="mailto:Info@digitalprintservice.org"
               className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-violet-600 to-blue-600 hover:from-violet-700 hover:to-blue-700 text-white font-medium rounded-full transition-all"
             >
               Contact Privacy Team

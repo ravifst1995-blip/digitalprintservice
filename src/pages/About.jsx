@@ -46,7 +46,7 @@ export default function AboutPage() {
           className="relative z-10 max-w-4xl mx-auto px-6 text-center"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-white/10 text-violet-300 text-sm font-medium mb-6">
-            About Nexus Digital
+            About Digital Print Service
           </span>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Transforming Brands Through

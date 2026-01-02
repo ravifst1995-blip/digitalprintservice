@@ -8,7 +8,7 @@ const testimonials = [
     name: "Sarah Mitchell",
     role: "CEO, TechFlow Inc.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
-    content: "Nexus Digital transformed our entire digital presence. Their SEO strategy alone increased our organic traffic by 340% in just 6 months. They're not just an agency—they're true partners in our growth.",
+    content: "Digital Print Service transformed our entire digital presence. Their SEO strategy alone increased our organic traffic by 340% in just 6 months. They're not just an agency—they're true partners in our growth.",
     rating: 5,
     company: "TechFlow"
   },
@@ -24,7 +24,7 @@ const testimonials = [
     name: "Emma Rodriguez",
     role: "Founder, LuxeStyle",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
-    content: "Our ROAS went from 2x to 12x within three months of working with Nexus. Their data-driven approach and creative excellence make them stand out from every other agency we've worked with.",
+    content: "Our ROAS went from 2x to 12x within three months of working with Digital Print Service. Their data-driven approach and creative excellence make them stand out from every other agency we've worked with.",
     rating: 5,
     company: "LuxeStyle"
   },
@@ -32,7 +32,7 @@ const testimonials = [
     name: "David Park",
     role: "VP Growth, FinanceHub",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
-    content: "From app store optimization to performance marketing, Nexus delivered exceptional results. They helped us achieve 2 million downloads and a 4.8-star rating. Truly exceptional work.",
+    content: "From app store optimization to performance marketing, Digital Print Service delivered exceptional results. They helped us achieve 2 million downloads and a 4.8-star rating. Truly exceptional work.",
     rating: 5,
     company: "FinanceHub"
   }
@@ -70,7 +70,7 @@ export default function Testimonials() {
             </h2>
             <p className="text-lg text-slate-600 mb-8">
               Don't just take our word for it. Here's what industry leaders 
-              have to say about partnering with Nexus Digital.
+              have to say about partnering with Digital Print Service.
             </p>
             
             {/* Navigation */}
