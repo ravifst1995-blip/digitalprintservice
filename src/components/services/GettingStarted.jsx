@@ -24,7 +24,7 @@ export default function GettingStarted({ links }) {
             <a
               key={i}
               href={link.href}
-              className="bg-white text-black px-16 py-6 rounded-full font-semibold 
+              className="bg-white text-black px-16 buttonHoverStyle py-6 rounded-full font-semibold 
                          text-lg md:text-xl 
                          border-2 border-transparent 
                          hover:border-blue-500 hover:bg-white/90 transition-all duration-300"
