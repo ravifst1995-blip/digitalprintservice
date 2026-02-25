@@ -19,13 +19,15 @@ export default function GettingStarted({ links }) {
           Select the operating system from below options to start the right printer driver installation of your product.
         </p>
 
-        {/* Anchor Buttons (dynamic) */}
-        <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-6">
           {links?.map((link, i) => (
             <a
               key={i}
               href={link.href}
-              className="bg-white buttonHoverStyle text-black px-10 py-5 rounded-full font-semibold hover:bg-gray-200 transition"
+              className="bg-white text-black px-16 py-6 rounded-full font-semibold 
+                         text-lg md:text-xl 
+                         border-2 border-transparent 
+                         hover:border-blue-500 hover:bg-white/90 transition-all duration-300"
             >
               {link.label}
             </a>

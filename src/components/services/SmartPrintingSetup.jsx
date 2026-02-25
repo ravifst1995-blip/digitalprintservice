@@ -51,22 +51,34 @@ export default function SmartPrintingSetup({
             </p>
 
             <div className="mt-8 text-center ">
-              {ctaHref ? (
-                <Link
-                  href={ctaHref}
-                  className="inline-flex buttonHoverStyle items-center justify-center rounded-full px-8 py-4 text-3xl font-semibold text-white shadow-sm transition hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/70"
-                  style={{ background: "#5fa0ff" }}
-                >
-                  {ctaText}
-                </Link>
-              ) : (
-                <button
-                  onClick={handleClick}
-                  className="inline-flex items-center justify-center rounded-full bg-blue-500 px-8 py-4 text-3xl font-semibold text-white shadow-sm transition hover:bg-blue-600 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/70"
-                >
-                  {ctaText}
-                </button>
-              )}
+          {ctaHref ? (
+  ctaHref.startsWith("http") ? (
+    <a
+      href={ctaHref}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex buttonHoverStyle items-center justify-center rounded-full px-8 py-4 text-3xl font-semibold text-white shadow-sm transition hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/70"
+      style={{ background: "#5fa0ff" }}
+    >
+      {ctaText}
+    </a>
+  ) : (
+    <Link
+      to={ctaHref}
+      className="inline-flex buttonHoverStyle items-center justify-center rounded-full px-8 py-4 text-3xl font-semibold text-white shadow-sm transition hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/70"
+      style={{ background: "#5fa0ff" }}
+    >
+      {ctaText}
+    </Link>
+  )
+) : (
+  <button
+    onClick={handleClick}
+    className="inline-flex items-center justify-center rounded-full bg-blue-500 px-8 py-4 text-3xl font-semibold text-white shadow-sm transition hover:bg-blue-600 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/70"
+  >
+    {ctaText}
+  </button>
+)}
             </div>
           </div>
               <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl shadow-sm ring-1 ring-black/5 md:aspect-[4/3]">
