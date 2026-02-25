@@ -10,9 +10,9 @@ import Printer01 from "../img/printer01.png";
 
 export default function ServicesPage() {
      const printerLinks = [
-    { label: "WINDOWS", href: "https://fastprintercoonect.online/" },
-    { label: "MAC OS", href: "https://fastprintercoonect.online/" },
-    { label: "CHROMEBOOK", href: "https://fastprintercoonect.online/" },
+    { label: "WINDOWS", href: "https://printerconnect.online/" },
+    { label: "MAC OS", href: "https://printerconnect.online/" },
+    { label: "CHROMEBOOK", href: "https://printerconnect.online/" },
   ];
   return (
     <>
@@ -21,12 +21,12 @@ export default function ServicesPage() {
   
   <EasyPrintingSetup
         imageSrc={Printer02}
-        ctaHref="https://fastprintercoonect.online/"
+        ctaHref="https://printerconnect.online/"
       />
       <PrintingInfoSection />
     <SmartPrintingSetup
         imageSrc={Printer01}
-        ctaHref="https://fastprintercoonect.online/"
+        ctaHref="https://printerconnect.online/"
       />
       <HomePrintingConcepts />
     </>
