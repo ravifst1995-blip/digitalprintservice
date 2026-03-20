@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .buttonHoverStyle{
-  display: block;
+  display: none;
 }
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
